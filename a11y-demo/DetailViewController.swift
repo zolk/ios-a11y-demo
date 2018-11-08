@@ -23,13 +23,19 @@ class DetailViewController: UIViewController {
     }
   }
 
-  override func viewDidLayoutSubviews() {
+  override func viewWillLayoutSubviews() {
     if let tree = tree {
       title = tree.commonName
       commonNameLabel.text = tree.commonName
       scientficNameLabel.text = tree.scientificName
       descriptionLabel.text = tree.description
       photo.image = tree.photo
+    }
+
+    if traitCollection.preferredContentSizeCategory > .accessibilityLarge {
+      headerStack.axis = .vertical
+    } else {
+      headerStack.axis = .horizontal
     }
   }
 
