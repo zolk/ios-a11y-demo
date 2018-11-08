@@ -19,4 +19,5 @@ struct Tree {
   var scientificName: String
   var photo:UIImage
   var description: String
+  var photoDescription: String
 }

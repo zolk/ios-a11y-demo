@@ -30,6 +30,7 @@ class DetailViewController: UIViewController {
       scientficNameLabel.text = tree.scientificName
       descriptionLabel.text = tree.description
       photo.image = tree.photo
+      photo.accessibilityLabel = tree.photoDescription
     }
 
     if traitCollection.preferredContentSizeCategory > .accessibilityLarge {
