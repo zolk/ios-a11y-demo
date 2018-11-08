@@ -7,14 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F11FEDF32194B54C005115EC /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11FEDF22194B54C005115EC /* TableViewCell.swift */; };
 		F1E091002193983F00B4236E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E090FF2193983F00B4236E /* AppDelegate.swift */; };
 		F1E091022193983F00B4236E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E091012193983F00B4236E /* ViewController.swift */; };
 		F1E091052193983F00B4236E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1E091032193983F00B4236E /* Main.storyboard */; };
 		F1E091072193984000B4236E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1E091062193984000B4236E /* Assets.xcassets */; };
 		F1E0910A2193984000B4236E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1E091082193984000B4236E /* LaunchScreen.storyboard */; };
+		F1E0911221939F3F00B4236E /* Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E0911121939F3F00B4236E /* Tree.swift */; };
+		F1E091142193A9BC00B4236E /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E091132193A9BC00B4236E /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F11FEDF22194B54C005115EC /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		F1E090FC2193983F00B4236E /* a11y-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "a11y-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1E090FF2193983F00B4236E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F1E091012193983F00B4236E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +26,8 @@
 		F1E091062193984000B4236E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F1E091092193984000B4236E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F1E0910B2193984000B4236E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1E0911121939F3F00B4236E /* Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tree.swift; sourceTree = "<group>"; };
+		F1E091132193A9BC00B4236E /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +62,10 @@
 			children = (
 				F1E090FF2193983F00B4236E /* AppDelegate.swift */,
 				F1E091012193983F00B4236E /* ViewController.swift */,
+				F11FEDF22194B54C005115EC /* TableViewCell.swift */,
 				F1E091032193983F00B4236E /* Main.storyboard */,
+				F1E091132193A9BC00B4236E /* DetailViewController.swift */,
+				F1E0911121939F3F00B4236E /* Tree.swift */,
 				F1E091062193984000B4236E /* Assets.xcassets */,
 				F1E091082193984000B4236E /* LaunchScreen.storyboard */,
 				F1E0910B2193984000B4236E /* Info.plist */,
@@ -135,8 +144,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F11FEDF32194B54C005115EC /* TableViewCell.swift in Sources */,
+				F1E0911221939F3F00B4236E /* Tree.swift in Sources */,
 				F1E091022193983F00B4236E /* ViewController.swift in Sources */,
 				F1E091002193983F00B4236E /* AppDelegate.swift in Sources */,
+				F1E091142193A9BC00B4236E /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,7 +295,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = HBPKSR77LH;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "a11y-demo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -301,7 +313,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = HBPKSR77LH;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "a11y-demo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
